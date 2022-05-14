@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1060</width>
-    <height>630</height>
+    <width>1121</width>
+    <height>805</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="mb1">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -40,7 +40,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="mb2">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -63,7 +63,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="mb3">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -86,7 +86,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="mb4">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -109,7 +109,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="mb5">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -135,130 +135,40 @@
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>100</x>
       <y>0</y>
-      <width>951</width>
-      <height>601</height>
+      <width>1091</width>
+      <height>761</height>
      </rect>
     </property>
     <property name="tabShape">
      <enum>QTabWidget::Triangular</enum>
     </property>
     <property name="currentIndex">
-     <number>4</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
       <string>Tab 1</string>
      </attribute>
-     <widget class="QLabel" name="label_19">
+     <widget class="QLabel" name="label_4">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>50</y>
-        <width>261</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 20pt &quot;SimSun-ExtB&quot;;
-alternate-background-color: rgb(183, 252, 255);</string>
-      </property>
-      <property name="text">
-       <string>DAILY ARREST ENTRY </string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_20">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
+        <x>20</x>
         <y>40</y>
-        <width>51</width>
-        <height>81</height>
+        <width>981</width>
+        <height>51</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 20pt &quot;SimSun-ExtB&quot;;
-color: rgb(249, 162, 255);</string>
+       <string notr="true">color: rgb(57, 80, 130);
+font: 16pt &quot;Algerian&quot;;</string>
       </property>
       <property name="text">
-       <string>20</string>
+       <string>Dashboard</string>
       </property>
-     </widget>
-     <widget class="QLabel" name="label_21">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>40</y>
-        <width>271</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 20pt &quot;SimSun-ExtB&quot;;</string>
-      </property>
-      <property name="text">
-       <string>WEEKLY ARREST ENTRY </string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_22">
-      <property name="geometry">
-       <rect>
-        <x>570</x>
-        <y>40</y>
-        <width>51</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 20pt &quot;SimSun-ExtB&quot;;
-color: rgb(249, 162, 255);</string>
-      </property>
-      <property name="text">
-       <string>35</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_23">
-      <property name="geometry">
-       <rect>
-        <x>620</x>
-        <y>40</y>
-        <width>291</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 20pt &quot;SimSun-ExtB&quot;;</string>
-      </property>
-      <property name="text">
-       <string>MONTHLY ARREST ENTRY </string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_25">
-      <property name="geometry">
-       <rect>
-        <x>910</x>
-        <y>40</y>
-        <width>51</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 20pt &quot;SimSun-ExtB&quot;;
-color: rgb(249, 162, 255);</string>
-      </property>
-      <property name="text">
-       <string>60</string>
-      </property>
-     </widget>
-     <widget class="QCalendarWidget" name="calendarWidget">
-      <property name="geometry">
-       <rect>
-        <x>580</x>
-        <y>250</y>
-        <width>341</width>
-        <height>241</height>
-       </rect>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </widget>
@@ -282,7 +192,7 @@ color: rgb(249, 162, 255);</string>
      <widget class="QLineEdit" name="lineEdit">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>210</x>
         <y>140</y>
         <width>181</width>
         <height>31</height>
@@ -305,7 +215,7 @@ color: rgb(249, 162, 255);</string>
      <widget class="QDateEdit" name="dateEdit">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>210</x>
         <y>60</y>
         <width>151</width>
         <height>31</height>
@@ -317,7 +227,7 @@ color: rgb(249, 162, 255);</string>
        <rect>
         <x>30</x>
         <y>100</y>
-        <width>111</width>
+        <width>161</width>
         <height>31</height>
        </rect>
       </property>
@@ -328,7 +238,7 @@ color: rgb(249, 162, 255);</string>
      <widget class="QComboBox" name="comboBox">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>210</x>
         <y>100</y>
         <width>181</width>
         <height>31</height>
@@ -371,7 +281,7 @@ color: rgb(249, 162, 255);</string>
      <widget class="QLineEdit" name="lineEdit_4">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>210</x>
         <y>20</y>
         <width>181</width>
         <height>31</height>
@@ -381,9 +291,9 @@ color: rgb(249, 162, 255);</string>
      <widget class="QLabel" name="label_11">
       <property name="geometry">
        <rect>
-        <x>30</x>
+        <x>10</x>
         <y>180</y>
-        <width>121</width>
+        <width>191</width>
         <height>31</height>
        </rect>
       </property>
@@ -394,7 +304,7 @@ color: rgb(249, 162, 255);</string>
      <widget class="QLineEdit" name="lineEdit_5">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>210</x>
         <y>180</y>
         <width>201</width>
         <height>31</height>
@@ -404,9 +314,9 @@ color: rgb(249, 162, 255);</string>
      <widget class="QLabel" name="label_12">
       <property name="geometry">
        <rect>
-        <x>60</x>
+        <x>30</x>
         <y>220</y>
-        <width>121</width>
+        <width>141</width>
         <height>31</height>
        </rect>
       </property>
@@ -417,7 +327,7 @@ color: rgb(249, 162, 255);</string>
      <widget class="QComboBox" name="comboBox_4">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>210</x>
         <y>220</y>
         <width>191</width>
         <height>31</height>
@@ -462,9 +372,9 @@ color: rgb(249, 162, 255);</string>
      <widget class="QLabel" name="label_13">
       <property name="geometry">
        <rect>
-        <x>30</x>
+        <x>10</x>
         <y>260</y>
-        <width>121</width>
+        <width>181</width>
         <height>31</height>
        </rect>
       </property>
@@ -475,7 +385,7 @@ color: rgb(249, 162, 255);</string>
      <widget class="QDateEdit" name="dateEdit_4">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>210</x>
         <y>260</y>
         <width>191</width>
         <height>31</height>
@@ -485,7 +395,7 @@ color: rgb(249, 162, 255);</string>
      <widget class="QLabel" name="label_14">
       <property name="geometry">
        <rect>
-        <x>430</x>
+        <x>480</x>
         <y>10</y>
         <width>101</width>
         <height>61</height>
@@ -495,20 +405,10 @@ color: rgb(249, 162, 255);</string>
        <string>BRIEF FACTS</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="plainTextEdit">
-      <property name="geometry">
-       <rect>
-        <x>540</x>
-        <y>20</y>
-        <width>331</width>
-        <height>71</height>
-       </rect>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_15">
       <property name="geometry">
        <rect>
-        <x>440</x>
+        <x>490</x>
         <y>110</y>
         <width>101</width>
         <height>31</height>
@@ -521,7 +421,7 @@ color: rgb(249, 162, 255);</string>
      <widget class="QPlainTextEdit" name="plainTextEdit_2">
       <property name="geometry">
        <rect>
-        <x>540</x>
+        <x>650</x>
         <y>100</y>
         <width>331</width>
         <height>51</height>
@@ -531,9 +431,9 @@ color: rgb(249, 162, 255);</string>
      <widget class="QLabel" name="label_16">
       <property name="geometry">
        <rect>
-        <x>410</x>
+        <x>430</x>
         <y>160</y>
-        <width>121</width>
+        <width>141</width>
         <height>31</height>
        </rect>
       </property>
@@ -544,9 +444,9 @@ color: rgb(249, 162, 255);</string>
      <widget class="QComboBox" name="comboBox_5">
       <property name="geometry">
        <rect>
-        <x>540</x>
+        <x>650</x>
         <y>160</y>
-        <width>221</width>
+        <width>271</width>
         <height>31</height>
        </rect>
       </property>
@@ -609,9 +509,9 @@ color: rgb(249, 162, 255);</string>
      <widget class="QLabel" name="label_17">
       <property name="geometry">
        <rect>
-        <x>420</x>
+        <x>450</x>
         <y>210</y>
-        <width>101</width>
+        <width>131</width>
         <height>31</height>
        </rect>
       </property>
@@ -622,9 +522,9 @@ color: rgb(249, 162, 255);</string>
      <widget class="QComboBox" name="comboBox_6">
       <property name="geometry">
        <rect>
-        <x>540</x>
+        <x>650</x>
         <y>210</y>
-        <width>221</width>
+        <width>331</width>
         <height>31</height>
        </rect>
       </property>
@@ -652,7 +552,7 @@ color: rgb(249, 162, 255);</string>
      <widget class="QLabel" name="label_18">
       <property name="geometry">
        <rect>
-        <x>440</x>
+        <x>470</x>
         <y>250</y>
         <width>91</width>
         <height>51</height>
@@ -665,14 +565,14 @@ color: rgb(249, 162, 255);</string>
      <widget class="QPlainTextEdit" name="plainTextEdit_3">
       <property name="geometry">
        <rect>
-        <x>540</x>
+        <x>650</x>
         <y>250</y>
         <width>331</width>
         <height>41</height>
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_6">
+     <widget class="QPushButton" name="caseSbtn">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -688,11 +588,19 @@ color: rgb(249, 162, 255);</string>
      <widget class="QTableWidget" name="tableWidget">
       <property name="geometry">
        <rect>
-        <x>15</x>
-        <y>351</y>
-        <width>921</width>
-        <height>221</height>
+        <x>5</x>
+        <y>390</y>
+        <width>981</width>
+        <height>291</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
       </property>
       <column>
        <property name="text">
@@ -750,21 +658,103 @@ color: rgb(249, 162, 255);</string>
        </property>
       </column>
      </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>10</y>
+        <width>331</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_3">
      <attribute name="title">
       <string>Page</string>
      </attribute>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>10</y>
+        <width>851</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(57, 80, 130);
+font: 16pt &quot;Algerian&quot;;</string>
+      </property>
+      <property name="text">
+       <string>P O L I C E    S T A T I O N   L I S T</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">
       <string>Page</string>
      </attribute>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>981</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(57, 80, 130);
+font: 16pt &quot;Algerian&quot;;</string>
+      </property>
+      <property name="text">
+       <string>LIST OF CRIME HEADS</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_5">
      <attribute name="title">
       <string>Page</string>
      </attribute>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>981</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>ROG Fonts</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(57, 80, 130);
+font: 16pt &quot;ROG Fonts&quot;;</string>
+      </property>
+      <property name="text">
+       <string>SEARCHING AND REPORT GENERATION</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
@@ -773,8 +763,8 @@ color: rgb(249, 162, 255);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1060</width>
-     <height>21</height>
+     <width>1121</width>
+     <height>31</height>
     </rect>
    </property>
   </widget>
